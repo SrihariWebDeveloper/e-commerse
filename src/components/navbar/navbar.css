@@ -1,0 +1,104 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.navbar .nav-left h2{
+    font-size: 30px;
+    width: 150px;
+} 
+.navbar ul{
+    display: flex;
+    gap: 30px;
+}
+.nav-center ul li{
+    cursor: pointer;
+}
+.nav-right{
+    display: flex;
+    gap: 30px;
+}
+.nav-right img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+}
+.navbar button{
+    background-color: rgb(89, 153, 247);
+    border: none;
+    height: 30px;
+    width: 60px;
+    color: azure;
+    border-radius: 5px;
+}
+.active{
+    padding-bottom: 2px;
+    border-bottom: 3px solid rgb(107, 105, 105);
+    transition: ease all;
+}
+
+@media (max-width: 1050px){
+    .navbar .nav-left h2{
+        width: 60px;
+        font-size: 20px;
+    } 
+    .navbar .nav-center ul{
+        gap: 15px;
+        font-size: 12px;
+    }
+    .navbar .nav-right{
+        gap: 6px;
+    }
+    .nav-right img{
+        height: 18px;
+        width: 18px;
+    }
+    .nav-right button{
+        font-size: 10px;
+        width: 45px;
+    }
+}
+
+@media (max-width: 900px){
+    .navbar .nav-left h2{
+        width: 80px;
+        font-size: 15px;
+    } 
+    .navbar .nav-center ul{
+        gap: 10px;
+        font-size: 12px;
+    }
+    .navbar .nav-right{
+        gap: 5px;
+    }
+    .nav-right img{
+        height: 18px;
+        width: 18px;
+    }
+    .nav-right button{
+        font-size: 10px;
+        width: 45px;
+    }
+}
+@media (max-width: 700px){
+    .navbar .nav-left h2{
+        width: 150px;
+        font-size: 25px;
+    } 
+    .navbar .nav-center ul{
+        display: none;
+    }
+    .navbar .nav-right{
+        gap: 30px;
+    }
+    .nav-right img{
+        height: 30px;
+        width: 30px;
+    }
+    .nav-right button{
+        font-size: 16px;
+        width: 80px;
+    }
+}

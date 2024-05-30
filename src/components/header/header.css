@@ -1,0 +1,75 @@
+.heading{
+    height: 30vw;
+    margin: 30px auto;
+    background: url('../../assets/banner.jpg') no-repeat;
+    position: relative;
+    background-size: cover;
+    animation: Fadein 1.5s;
+    border-radius: 10px;
+}
+
+.heading .header-conent .content{
+    position: absolute;
+    top: 60px;
+    color: white;
+    left: 20px;
+    margin: 0px 20px;
+}
+.content h4{
+    font-size: 20px;
+}
+.content h3{
+    display: flex;
+    font-size: 50px;
+}
+.content h2{
+    font-size: 50px;
+}
+.content h4{
+    color: #000;
+}
+.content p{
+    font-size: 30px;
+}
+.content button{
+    background-color: transparent;
+    font-size: 15px;
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: rgb(7, 1, 1);
+}
+@media (max-width: 1050px) {
+    .content h3{
+        display: flex;
+        font-size: 10px;
+    }
+    .content h4{
+        color: #000;
+        font-size: 10px;
+    }
+    .content h1{
+        font-size: 15px;
+    }
+    .content p{
+        font-size: small;
+    }
+    .content button{
+        background-color: transparent;
+        font-size: 10px;
+        height: 25px;
+        width: 80px;
+        border: 2px solid black;
+        margin-top: 10px;
+        border-radius: 5px;
+        color: rgb(7, 1, 1);
+    }
+    .content h2{
+        font-size: 20px;
+    }
+    .heading .header-conent .content{
+        top: 8px;
+    }
+}

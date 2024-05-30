@@ -1,0 +1,48 @@
+.meanu{
+    margin: 30px 0px;
+}
+.meanu h4{
+    font-size: 30px;
+}
+.iteams{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.iteams .item{
+    background-color: rgb(231, 230, 227);
+    height: 210px;
+    border-radius: 10px;
+    width: 160px;
+}
+.iteams .item img{
+    width: 130px;
+    height: 130px;
+    mix-blend-mode: color-burn;
+    margin-top: 5px;
+}
+.iteams .item h3{
+    font-size: 15px;
+    margin: 5px 0px;
+}
+.iteams .item button{
+    background-color: indianred;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+@media (max-width:1050px) {
+    .iteams{
+        margin: 10px 0px;
+    }
+    .iteams .item{
+        width: 140px;
+    }
+}

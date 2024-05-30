@@ -1,0 +1,30 @@
+.Categeory{
+    margin: 20px 0px;
+}
+.Categeory .explore p{
+    margin-top: 5px;
+}
+.image-cate{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin-top: 20px;
+    overflow-x: scroll;
+}
+.image-cate .categ img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px 1px rgb(188, 187, 187);
+
+}
+
+.image-cate::-webkit-scrollbar{
+    display: none;
+}
+.image-cate .categ h5{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 19px;
+}

@@ -1,0 +1,26 @@
+.mobile-app{
+    margin: 90px 0px;
+    text-align: center;
+
+}
+.moble-conent .text{
+    margin: 20px 0px;
+}
+.text h2{
+    font-size: 25px;
+}
+.text h1{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.moble-conent .images{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media (max-width:1050px) {
+    .moble-conent .images img{
+        width: 150px;
+    }
+}
